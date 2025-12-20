@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="https://use.typekit.net/tau7bdq.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="60">
+    <title>Menu Digital</title>
+    <style>
+        body {
+            font-family: "brother-1816", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            text-align: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+  
+        }
+        .menu {
+            width: 100%;
+            margin: 0 auto;
+            background: #f2f2f2;
+            border: 2px solid #2d2d25;
+            height: 100vh;
+            overflow-y: auto;
+        }
+        
+        h1 {
+            color: #2d2d25;
+            font-family: "arsenica-variable", sans-serif;
+            font-variation-settings: "opsz" 100, "wght" 400;
+            font-size: 48px;
+        }
+        h2 {
+            color: #2d2d25;
+            font-family: "arsenica-variable", sans-serif;
+            font-variation-settings: "opsz" 100, "wght" 400;
+            font-size: 30px;
+        }
+        h3 {
+            color: #2d2d25;
+            font-family: "arsenica-variable", sans-serif;
+            font-variation-settings: "opsz" 100, "wght" 400;
+            font-size: 24px;
+        }
+        h4 {
+            color: #2d2d25;
+            font-family: "arsenica-variable", sans-serif;
+            font-variation-settings: "opsz" 100, "wght" 400;
+            font-size: 16px;
+        }
+        h5 {
+            color: #2d2d25;
+            font-family: "arsenica-variable", sans-serif;
+            font-variation-settings: "opsz" 100, "wght" 400;
+            font-size: 12px;
+        }
+        .section {
+            margin: -2px -2px -2px -2px;
+            padding: 0px 25px 0px 25px;
+           
+        }
+        .section h2 {
+            color: #2d2d25;
+            border: 2px solid #2d2d25;
+            padding-bottom: 10px;
+            margin: 0px -25px 0px -25px;
+        }
+        .item {
+            display: flex;
+            justify-content: center;
+            padding: 10px 4vw 10px 4vw;
+            border-bottom: 1px solid #acacac;
+            font-family: "brother-1819", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            
+        }
+        .item-name {
+            width: 200px;
+            text-align: left;
+        }
+        .item-spacer {
+            width: 250px;
+        }
+        .price {
+            width: 100px;
+            text-align: right;
+            font-weight: bold;
+            color: #178BFF;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            overflow: hidden;
+        }
+        .header-content {
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+        .menu-box {
+            flex: 1;
+            height: 18.75vw;
+            border: 2px solid #2d2d25;
+            padding: 0 4vw 0 4vw;
+            font-family: "arsenica-variable", sans-serif;
+            font-variation-settings: "opsz" 100, "wght" 400;
+            font-size: 12.5vw;
+            color: #2d2d25;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: -2px;
+            margin-left: -2px;
+        }
+        .logo-box {
+            flex: 0 0 18.75vw;
+            height: 18.75vw;
+            border: 2px solid #2d2d25;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: -2px;
+            margin-right: -2px;
+            margin-top: -2px;
+        }
+        .Kawa-box {
+            flex: 1;
+            height: 18.75vw;
+            border: 2px solid #2d2d25;
+            padding: 0 4vw 0 3vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: -2px;
+            margin-top: -2px;
+        }
+        .logo-box img {
+            width: 80%;
+            height: 80%;
+            object-fit: contain;
+        }
+        .image-box img {
+            width: 100%;
+            height: auto;
+        }
+        .kawa-k {
+            font-feature-settings: "ss01";
+            font-family: "arsenica-variable", sans-serif;
+            font-variation-settings: "opsz" 100, "wght" 400;
+            font-size: 12.5vw;
+            color: #2d2d25;
+        }
+        .kawa-a1 {
+            font-feature-settings: "ss02";
+            font-family: "arsenica-variable", sans-serif;
+            font-variation-settings: "opsz" 100, "wght" 400;
+            font-size: 12.5vw;
+            color: #2d2d25;
+        }
+        .kawa-w {
+            font-feature-settings: "ss08";
+            font-family: "arsenica-variable", sans-serif;
+            font-variation-settings: "opsz" 100, "wght" 400;
+            font-size: 12.5vw;
+            color: #2d2d25;
+        }
+        .kawa-a2 {
+            font-feature-settings: "ss02";
+            font-family: "arsenica-variable", sans-serif;
+            font-variation-settings: "opsz" 100, "wght" 400;
+            font-size: 12.5vw;
+            color: #2d2d25;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <div class="header">
+            <div class="header-content">
+                <div class="menu-box">Menu</div>
+                <div class="logo-box"><img src="logo.png" alt="Logo"></div>
+                <div class="Kawa-box"><span class="kawa-k">K</span><span class="kawa-a1">a</span><span class="kawa-w">w</span><span class="kawa-a2">a</span></div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Café</h2>
+            <div class="item">
+                <span class="item-name">EXPRESSO</span>
+                <span class="item-spacer"></span>
+                <span class="price">2.40€</span>
+            </div>
+            <div class="item">
+                <span class="item-name">ALLONGÉ</span>
+                <span class="item-spacer"></span>
+                <span class="price">2.40€</span>
+            </div>
+            <div class="item">
+                <span class="item-name">NOISETTE</span>
+                <span class="item-spacer"></span>
+                <span class="price">2.80€</span>
+            </div>
+            <div class="item">
+                <span class="item-name">CRÉME</span>
+                <span class="item-spacer"></span>
+                <span class="price">3.80€</span>
+            </div>
+            <div class="item">
+                <span class="item-name">CAPPUCCINO</span>
+                <span class="item-spacer"></span>
+                <span class="price">4.00€</span>
+            </div>
+            <div class="item">
+                <span class="item-name">LATTE</span>
+                <span class="item-spacer"></span>
+                <span class="price">4.50€</span>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Thé</h2>
+            <div class="item">
+                <span class="item-name">THÉ VERT</span>
+                <span class="item-spacer"></span>
+                <span class="price">4.00€</span>
+            </div>
+            <div class="item">
+                <span class="item-name">THÉ ROOIBOS</span>
+                <span class="item-spacer"></span>
+                <span class="price">5.00€</span>
+            </div>
+            <div class="item">
+                <span class="item-name">CHAÏ LATTE</span>
+                <span class="item-spacer"></span>
+                <span class="price">5.00€</span>
+            </div>
+        </div>
+        <div class="image-box"><img src="Image.png" alt="Image"></div>
+    </div>
+</body>
+</html>
